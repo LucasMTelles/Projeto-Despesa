@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*## Colors
+
+### Primary*/
+:root{
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+
+    /*### Neutral*/
+
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+}
+
+body{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--cream);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+header .cabecalho{
+    background-color: var(--soft-red);
+    border-radius: 16px;
+    width: 600px;
+    height: 120px;
+}
+
+p{
+    padding: 1.5rem;
+    color: var(--very-pale-orange);
+}
+
+h1{
+    padding-left: 1.5rem;
+    position: relative;
+    bottom: 20px;
+    color: var(--very-pale-orange);
+}
+
+img{
+    position: relative;
+    left: 490px;
+    bottom: 132px;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    height: 640px;
+}
+
+.conteudo{
+    width: 500;
+    background-color: var(--very-pale-orange);
+    border-radius: 16px;
+    padding: 2.8rem;
+}
+
+.conteudo h1{
+    color: black;
+}
+
+.spend{
+    padding-top: 2rem;
+    position: relative;
+    right: 20px;
+}
+
+.barra1{
+    background-color: var(--soft-red);
+    width: 54px;
+    height: 54px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.grafico{
+    position: relative;
+    display: flex;
+    gap: 22px;
+    align-items: flex-end;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dia1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 36px;
+    color: var(--medium-brown);
+}
+
+.dia2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 86px;
+    color: var(--medium-brown);
+}
+
+.dia3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 136px;
+    color: var(--medium-brown);
+}
+
+.dia4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 76px;
+    color: var(--medium-brown);
+}
+
+.dia5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 56px;
+    color: var(--medium-brown);
+}
+
+.dia6{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 116px;
+    color: var(--medium-brown);
+}
+
+.dia7{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 62px;
+    color: var(--medium-brown);
+}
+
+.barra2{
+    background-color: var(--soft-red);
+    width: 54px;
+    height: 104px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.barra3{
+    background-color: var(--cyan);
+    width: 54px;
+    height: 154px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.barra4{
+    background-color: var(--soft-red);
+    width: 54px;
+    height: 94px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.barra5{
+    background-color: var(--soft-red);
+    width: 54px;
+    height: 74px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.barra6{
+    background-color: var(--soft-red);
+    width: 54px;
+    height: 134px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.barra7{
+    background-color: var(--soft-red);
+    width: 54px;
+    height: 80px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 20px;
+}
+
+.totalnomes{
+    color: var(--medium-brown);
+    padding-top: 3rem;
+    position: relative;
+    right: 20px;
+}
+
+.total{
+    font-size: 50px;
+    position: relative;
+    right: 20px;
+}
+
+.percent{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 20px;
+    bottom: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+.last_month{
+    color: var(--medium-brown);
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 20px;
+    bottom: 150px;
+}
